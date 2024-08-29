@@ -1,0 +1,97 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://th.bing.com/th/id/OIP.UFVEZSUcCBvDeNSWt08clwHaFd?w=244&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Navigation bar styling */
+.navbar {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-link:hover {
+    background-color: #575757;
+    border-radius: 4px;
+}
+
+/* Main content styling */
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+.welcome-paragraph {
+    background-image: url('https://th.bing.com/th/id/OIP.UFVEZSUcCBvDeNSWt08clwHaFd?w=244&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7');
+    background-repeat: no-repeat;
+    padding: 0;
+    color: white;
+    border-radius: 20px;
+    text-align:left;
+    margin-bottom: 0;
+}
+
+.details-paragraph {
+    font-size: 20px;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Button styling */
+.color-button {
+    background-color: #007bff; /* Initial button color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth color transition */
+}
+
+/* Button hover state */
+.color-button:hover {
+    background-color: #0056b3; /* Button color on hover */
+}
